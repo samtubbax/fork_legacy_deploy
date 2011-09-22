@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'bundler'
+require 'capistrano'
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -12,6 +13,7 @@ require 'shoulda'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
+require 'forkcms_legacy_deploy/defaults'
 require 'fork_legacy_deploy'
 
 class Test::Unit::TestCase
