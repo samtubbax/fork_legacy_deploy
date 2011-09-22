@@ -1,2 +1,2 @@
-require 'forkcms_deploy/forkcms'
-require 'forkcms_deploy/overwrites'
+require 'forkcms_legacy_deploy/forkcms'
+require 'forkcms_legacy_deploy/overwrites'
