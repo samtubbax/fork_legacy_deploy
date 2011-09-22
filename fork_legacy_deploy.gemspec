@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "fork_legacy_deploy.gemspec",
     "lib/fork_legacy_deploy.rb",
     "lib/forkcms_deploy/defaults.rb",
     "lib/forkcms_deploy/forkcms.rb",
