@@ -1,6 +1,6 @@
 = fork_legacy_deploy
 
-Description goes here.
+Deploy old as hell fork projects
 
 == Contributing to fork_legacy_deploy
  
