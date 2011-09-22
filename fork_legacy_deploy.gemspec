@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "fork_legacy_deploy"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sam Tubbax", "Tijs Verkoyen", "Jan De Poorter"]
@@ -26,9 +26,9 @@ Gem::Specification.new do |s|
     "VERSION",
     "fork_legacy_deploy.gemspec",
     "lib/fork_legacy_deploy.rb",
-    "lib/forkcms_deploy/defaults.rb",
-    "lib/forkcms_deploy/forkcms.rb",
-    "lib/forkcms_deploy/overwrites.rb",
+    "lib/forkcms_legacy_deploy/defaults.rb",
+    "lib/forkcms_legacy_deploy/forkcms.rb",
+    "lib/forkcms_legacy_deploy/overwrites.rb",
     "test/helper.rb",
     "test/test_fork_legacy_deploy.rb"
   ]
