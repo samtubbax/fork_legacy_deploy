@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fork_legacy_deploy"
   gem.homepage = "http://github.com/samtubbax/fork_legacy_deploy"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Deploy old versions of fork CMS"
+  gem.description = "Deploy old versions of fork CMS. Specifically the one that says 'Copyright 2006', no idea what version it is"
   gem.email = "sam@sumocoders.be"
-  gem.authors = ["Sam Tubbax"]
+  gem.authors = ["Sam Tubbax", "Tijs Verkoyen", "Jan De Poorter"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
