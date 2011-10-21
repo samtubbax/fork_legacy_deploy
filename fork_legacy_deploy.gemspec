@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "fork_legacy_deploy"
-  s.version = "0.1.4"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Sam Tubbax", "Tijs Verkoyen", "Jan De Poorter"]
-  s.date = "2011-09-22"
+  s.date = "2011-10-21"
   s.description = "Deploy old versions of fork CMS. Specifically the one that says 'Copyright 2006', no idea what version it is"
   s.email = "sam@sumocoders.be"
   s.extra_rdoc_files = [
